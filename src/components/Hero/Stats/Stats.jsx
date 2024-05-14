@@ -4,7 +4,7 @@ import styles from './Stats.module.scss'
 import { clashGroteskSemibold } from '@/fonts'
 import cs from 'classnames'
 import { motion } from 'framer-motion'
-
+import PT from 'prop-types'
 const Stats = ({ scrolled }) => {
     const motionProps = scrolled ?
         {
@@ -27,4 +27,10 @@ const Stats = ({ scrolled }) => {
     )
 }
 
+Stats.propTypes = {
+    scrolled: PT.bool,
+}
+Stats.defaultProps={
+    scrolled: false,
+}
 export default Stats

@@ -1,3 +1,3 @@
-import Button from '@/ui-kit/Button/Button';
+import Button from '@/ui-kit/Button/Button'
 
-export {Button}
+export { Button }

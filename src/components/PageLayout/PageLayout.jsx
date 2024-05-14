@@ -9,21 +9,21 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 const PageLayout = () => {
     const [scrolled, setScrolled] = useState(false)
+    const handleScroll = () => {
+        if(!scrolled) setScrolled(true)
+    }
+    const handleWheelEvent = (event) => {
+        event.preventDefault()
+        handleScroll(event)
+    }
     const scrollListener = () => {
-        const handleScroll = () => {
-           if(!scrolled) setScrolled(true)
-        }
-        const handleWheelEvent = (event) => {
-            event.preventDefault()
-            handleScroll(event)
-        }
         window.addEventListener('wheel', handleWheelEvent, { once: true, passive: true })
         return () => {
-            window.removeEventListener('wheel', handleWheelEvent, {once: true, passive: true })
+            window.removeEventListener('wheel', handleWheelEvent, { once: true, passive: true })
         }
     }
 
-        useEffect(scrollListener, [])
+    useEffect(scrollListener, [])
 
 
     const ref = useRef(null)
