@@ -1,0 +1,62 @@
+$gradient: linear-gradient(135deg, #963488 0%, #FC6F32 50%, #FF4A59 100%);
+$transparent-gradient: linear-gradient(135deg, rgba(150, 52, 136, 0.2) 0%, rgba(252, 111, 50, 0.2) 50%, rgba(255, 74, 89, 0.2) 100%);
+$heading-gradient: linear-gradient(135deg, #FFD6F9 0%, #FFCBB4 50%, #FFBEC3 100%);
+$white: #FFFFFF;
+//Had to change the color because the planet is not actually a png
+$black: #000000;
+$medium-weight: 500;
+$normal-weight: 400;
+//animations
+$transition: 0.35s cubic-bezier(0.3, 0.1, 0.3, 1);
+$blue-grey-color: #dce3f3;
+
+//font-sizes
+$h1-fontsize: 8rem;
+$h2-fontsize: 7rem;
+$h3-fontsize: 6rem;
+$h4-fontsize: 5rem;
+$h5-fontsize: 4.2rem;
+$h6-fontsize: 2rem;
+
+$large-paragraph: 1.8rem;
+$paragraph: 1.6rem;
+$small-paragraph: 1.4rem;
+$small: 1.2rem;
+$x-small: 1rem;
+
+$headline-1: 6rem;
+$headline-2: 4.8rem;
+$headline-3: 3.6rem;
+$headline-4: 2.8rem;
+$headline-5: 2.4rem;
+$headline-6: 2rem;
+
+$subtitle: 1.8rem;
+
+//font-family
+$main-title-font: 'Montserrat', sans-serif;
+$main-font-family: 'Noto Sans', sans-serif;
+
+//devices
+$device-xxs: 375px;
+$device-xs: 540px;
+$device-sm: 768px;
+$device-md: 992px;
+$device-lg: 1200px;
+$device-xl: 1600px;
+
+// transition variables
+$duration: 0.35s;
+$duration_long: 0.75s;
+$easing: cubic-bezier(0.3, 0.1, 0.3, 1);
+
+// breakpoints
+// https://getbootstrap.com/docs/4.0/layout/grid/#grid-options
+$responsive-breakpoints: (
+  xxs: 375px,
+  xs: 540px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px,
+  xl: 1600px,
+);

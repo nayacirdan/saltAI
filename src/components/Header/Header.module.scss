@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .buttonsContainer {
+    display: flex;
+    width: fit-content;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 24px;
+
+    .button {
+      font-weight: $normal-weight;
+
+      &:first-child {
+        background: transparent;
+      }
+    }
+  }
+}

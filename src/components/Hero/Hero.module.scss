@@ -1,0 +1,46 @@
+.hero {
+  width: 100%;
+  height: calc(100vh - 32px - 53.89px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  &.scrolled {
+    .heading {
+      color: $white;
+    }
+  }
+
+  .heading {
+    font-weight: $medium-weight;
+    font-size: 128px;
+    line-height: 128px;
+    margin-bottom: 36px;
+    margin-top: 0;
+  }
+
+  .description {
+    line-height: 29.05px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 24px;
+  }
+
+  .button {
+    font-weight: $normal-weight;
+
+    &:nth-child(2) {
+      background: transparent;
+    }
+  }
+}

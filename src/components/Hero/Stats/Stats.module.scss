@@ -1,0 +1,33 @@
+.stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  grid-column-gap: 33.52px;
+  margin-top: 100px;
+
+  .stat {
+    &Element {
+      max-width: 564.32px;
+      padding: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: $transparent-gradient;
+      border-radius: 91px;
+    }
+
+    &Value {
+      font-size: 64px;
+      line-height: 78.72px;
+      margin-bottom: 20px;
+    }
+
+    &Label {
+      font-size: 24px;
+      line-height: 29.05px;
+    }
+  }
+}

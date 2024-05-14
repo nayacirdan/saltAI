@@ -1,0 +1,57 @@
+.button {
+  background: $black;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Inter';
+
+  &.big {
+    font-weight: $medium-weight;
+    font-size: 24px;
+    line-height: 29.05px;
+    border-radius: 91px;
+  }
+
+  &.small {
+    border-radius: 91px;
+    font-weight: $medium-weight;
+    font-size: 18px;
+    line-height: 21.78px;
+  }
+
+  &.primary {
+    background: linear-gradient($black, $black) padding-box,
+    $gradient border-box;
+    border: 2px solid transparent;
+
+    &:hover {
+      background: $gradient border-box;
+    }
+
+    &.big {
+      padding: 22px 48px 24px 48px;
+    }
+
+    &.small {
+      padding: 14px 32px 16px 32px;
+    }
+  }
+
+  &.secondary {
+    border: none;
+
+    &:hover {
+      @include gradient-text($gradient)
+    }
+
+    &.big {
+      //width: 141px;
+      padding: 22px 32px 24px 32px;
+    }
+
+    &.small {
+      //width: 106px;
+      padding: 14px 24px 16px 24px;
+    }
+  }
+}

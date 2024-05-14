@@ -1,0 +1,43 @@
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .leftContainer {
+    max-width: 924px;;
+  }
+
+  .heading {
+    font-size: 64px;
+  }
+
+  .description {
+    font-size: 24px;
+    font-weight: $normal-weight;
+    line-height: 36px;
+    width: 1149px;
+  }
+
+  .button {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.3px;
+  }
+
+}
+
+.commet {
+  width: 204.99px;
+  height: 2.62px;
+  opacity: 90%;
+  background: linear-gradient(132deg, rgba(70, 255, 244, 0), #AEFFFA, rgba(70, 255, 244, 0));
+  position: absolute;
+  left: 0;
+  top: 25vh;
+  transform: rotate(13deg);
+  perspective: 10px;
+
+}
+

@@ -1,0 +1,21 @@
+.projects {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .slider {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    align-items: center;
+  }
+
+  .container {
+    .heading {
+      text-align: center;
+      margin-bottom: 48px;
+      margin-top: 0;
+    }
+  }
+}

@@ -9,12 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^14.2.3",
+    "@next/font": "^14.2.3",
+    "@react-spring/parallax": "^9.7.3",
+    "classnames": "^2.5.1",
+    "framer-motion": "^11.2.0",
+    "next": "14.2.3",
+    "prop-types": "^15.8.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "sass": "^1.77.1",
+    "sass-resources-loader": "^2.2.5"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.24.5",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2"
+  },
+  "engines": {
+    "node": "21.1.0"
   }
 }
