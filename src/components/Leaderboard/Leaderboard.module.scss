@@ -1,0 +1,36 @@
+.sectionHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.description {
+  font-weight: $normal-weight;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+.heading {
+  font-size: 64px;
+  line-height: 78.72px;
+  font-weight: $medium-weight;
+  margin: 0;
+}
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+  align-items: center;
+  span {
+    margin-right: 32px;
+  }
+  .arrowButton {
+    transform: rotate(0deg);
+    transition: transform 200ms ease-in-out;
+    &.rotated {
+      transform: rotate(180deg);
+    }
+  }
+}

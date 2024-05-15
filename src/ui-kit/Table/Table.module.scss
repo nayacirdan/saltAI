@@ -1,0 +1,45 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th, td {
+    padding: 26px 24px;
+  }
+
+  th {
+    background: transparent;
+    font-size: 16px;
+    color: #8F99B0;
+    font-weight: $semi-bold-weight;
+  }
+
+  td {
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: $normal-weight;
+    color: $white;
+    &:nth-child(3) {
+      min-width: 326px;
+      max-width: 326px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+.evenRow {
+  background-color: #C9D9FF14;
+}
+
+.oddRow {
+  background-color: transparent;
+}
+
+.leftAligned {
+  text-align: left;
+}
+
+.rightAligned {
+  text-align: right;
+}
